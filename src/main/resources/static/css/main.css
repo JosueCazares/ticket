@@ -1,0 +1,65 @@
+body {
+    margin: 0; /* Reset del margen predeterminado del body */
+    background: linear-gradient(97deg, rgba(8, 114, 182, 1) 0%, rgba(50, 122, 168, 1) 23%, rgba(6, 139, 194, 1) 65%);
+}
+  
+  .nav-bar {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    margin: 0; /* Asegura que no haya margen en el nav */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+.nav-bar h1{
+    color: #fff;
+    cursor: default;
+    font-size: 70px;
+}
+
+  .modulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .modulo{
+    margin: 25px;
+    cursor: pointer;
+  }
+
+
+  .info{
+    width: 50vw;
+    height: 500px;
+    margin: 200px 20px;
+    padding: 30px 20px;
+    font-size: 20px;
+  }
+  .info h3{
+    color: #fff;
+    font-size: 5    0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .busqueda{
+    height: 500px;
+    width: 500px;
+    border: #fff 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .opcion{
+    margin: 10px;
+  }

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: #fff;
+    border: solid 2px black;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    height: 70px;
+    background-color: #147CEB;
+    border-top-left-radius: 15px; /* Redondear la esquina superior izquierda */
+    border-top-right-radius: 15px; /* Redondear la esquina superior derecha */
+    margin-bottom: 50px;
+}
+.titulo h1 {
+    margin-top: 0; /* Eliminar el espacio en blanco superior */
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    /*margin-top: 0px;*/
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin: auto; /* Centrar el logo horizontalmente */
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column; /* Cambiar la disposición a columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+.credenciales, .login {
+    width: 75%;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px black solid;
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.login{
+    background-color: #147CEB;
+    border-radius: 10px;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.login:hover{
+    transform: scale(1.05);
+}
+
+
+

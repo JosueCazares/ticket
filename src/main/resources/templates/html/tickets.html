@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Tickets</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Estatus</th>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="ticket : ${tickets}">
+        <tr>
+            <td th:text="${ticket.id}"></td>
+            <td th:text="${ticket.nombre}"></td>
+            <td th:text="${ticket.estatus}"></td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+</body>
+</html>
